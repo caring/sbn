@@ -109,12 +109,6 @@ end
 # to the enumerable model, from ruby-talk post #135920.
 module Enumerable # :nodoc:
   ##
-  # Sum of all the elements of the Enumerable
-  def sum
-    self.inject(0) { |acc, i| acc + i }
-  end
-
-  ##
   # Average of all the elements of the Enumerable
   #
   # The Enumerable must respond to #length
